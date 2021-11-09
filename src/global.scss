@@ -1,0 +1,95 @@
+// 引入默认全局样式
+@import '@alifd/next/reset.scss';
+
+html,body {
+  -webkit-font-smoothing: antialiased;
+    width: 100%;
+  height: 100%;
+}
+.clear-table-padding{
+  .next-table td .next-table-cell-wrapper{
+    padding: 0 !important;
+  }
+}
+#ice-container{ width: 100%;
+  height: 100%;
+  background: url(./img/bg.jpg) no-repeat center;
+  background-size: cover;
+  position: fixed;
+}
+ .loginbg{ position: absolute; width: 100%; height: 100%; position: absolute; 
+  background: url(./img/bg.jpg) no-repeat center;
+  background-size: cover;
+  -webkit-filter: blur(5px); /* Chrome, Opera */
+  -moz-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);}
+  .login-box{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+  .login{
+    width: 780px;
+    height: 460px;
+    margin: 200px auto;
+    position: relative;
+.loginconter{  
+    box-shadow: 0 10px 20px rgba(15, 33, 65, 0.105);
+    overflow: hidden; background-color: rgba($color: #fff, $alpha: 0.3);
+    border-radius: 10px;
+  position: absolute;width: 100%; height: 100%;}
+    .loginleft{   background:#1939ae url(./img/leftpng.png) no-repeat center;
+      background-size: 100%; width: 40%; float: left; overflow: hidden; height: 100%}
+    .loginright{width: 60%; float: left; padding-top: 100px;}
+    .title{ font-size:32px; margin-bottom: 40px; font-weight: bold; color: #1939ae; }
+    .formbox{ width: 60%; margin: 0 auto; text-align: left;}
+    .next-btn.next-btn-primary{
+      border: none !important;
+        background-image: linear-gradient(to bottom right, #1939ae, #1ca8ff) !important;
+      font-size: 16px !important; font-weight: bold !important;}
+.next-btn.next-btn-primary:hover{ background-image: linear-gradient(to bottom right, #1ca8ff, #1939ae) !important;}
+  }
+}
+
+.canclick{
+  color: #5485f7;
+  cursor: pointer;
+}
+.next-input.next-large{ border: solid 1px #fff; font-size: 16px !important;}
+
+.toprightnav > .next-btn > .next-btn-helper{ margin-top: -9px; height: 36px;font-size: 18px;text-indent:9px;letter-spacing:20px;  line-height: 36px; width: 36px; background-color: #5073f5; border-radius:50%;overflow: hidden;}
+// .next-btn > .next-btn-helper:first-letter{ display: inline-block; height: 30px;font-size: 16px;  line-height: 30px; width: 30px; background-color: #5073f5; border-radius: 15px;overflow: hidden;}
+// .next-shell-brand .next-shell-header .dock-trigger, .next-shell-brand .next-shell-header .nav-trigger{display: none !important;}
+.toptitle{font-size: 22px; font-weight: bold; color: #1939ae !important;
+}
+.next-shell-brand .next-shell-header .dock-trigger, .next-shell-brand .next-shell-header .nav-trigger{
+  background: #fff !important;
+}
+.next-shell-brand .next-shell-header{ 
+background: rgba(255, 255, 255, 1) border-box !important;
+box-shadow:none !important; 
+// border: none !important;
+}
+.next-shell-brand .next-shell-main{background: transparent !important;}
+.next-shell-brand .next-shell-aside.next-shell-navigation{
+  // border-right: none !important;   
+   background: rgba(242, 240, 240, 0.7) border-box !important;}
+   .bgleft{background: rgba(250, 250, 255, 0.783) border-box !important; padding: 10px; }
+.next-shell-sub-main{ background: rgba(250, 250, 255, 0.783) border-box !important; height: calc(100vh - 52px) !important; overflow: hidden;}   
+.next-shell-sub-main{ height: 100%;}
+.next-nav.next-ver .next-menu-item-inner{font-size: 16px !important; }
+.next-menu-item .next-menu-item-text > a{color: rgb(58, 59, 67) !important;}
+.next-nav.next-normal .next-nav-item.next-menu-item.next-selected .next-menu-item-text > a,
+.next-nav.next-normal .next-nav-item.next-menu-item.next-selected .next-menu-item-text > i{
+    color: #fff !important;
+}
+.next-nav.next-normal .next-nav-item.next-menu-item.next-selected{background-color: #5073f5 !important;}
+.next-input.next-disabled{border-color: #ddd !important;background-color:#eee !important;}
+.tablebd .next-table td{border-bottom:none !important;border-right:none !important; padding-bottom: 2px !important;}
+// .next-table{overflow: hidden;width: auto; overflow-x: scroll;}
+// .tablebd{ }
+.mb10{
+  margin-bottom: 10px;
+}
